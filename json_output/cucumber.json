@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open Browser and Search for Amazon",
+        "description": "",
+        "id": "amazon-home-page-test;open-browser-and-search-for-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1175754300,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.apache.log4j.Logger.info(Object)\" because \"com.qa.util.TestBase.print\" is null\r\n\tat com.qa.util.TestBase.openBrowser(TestBase.java:32)\r\n\tat com.qa.stepDefinitions.TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage(TC1_Amazon_StepDefinitions.java:24)\r\n\tat ✽.Given user open browser and goes to webpage(D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user open browser and goes to webpage",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user verify the home page title and page URL",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_verify_the_page_title_and_page_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user quit",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Home Page Test",
+    "description": "",
+    "id": "amazon-home-page-test",
+    "keyword": "Feature",
+    "uri": "D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.175754">
+    <testcase classname="Amazon Home Page Test" name="Open Browser and Search for Amazon" time="1.175754">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;com.qa.util.TestBase.print&quot; is null&#13;&#10;&#9;at com.qa.util.TestBase.openBrowser(TestBase.java:32)&#13;&#10;&#9;at com.qa.stepDefinitions.TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage(TC1_Amazon_StepDefinitions.java:24)&#13;&#10;&#9;at ✽.Given user open browser and goes to webpage(D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature:4)&#13;&#10;"><![CDATA[Given user open browser and goes to webpage.................................failed
+Then user verify the home page title and page URL...........................skipped
+Then user quit..............................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "com.qa.util.TestBase.print" is null
+	at com.qa.util.TestBase.openBrowser(TestBase.java:32)
+	at com.qa.stepDefinitions.TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage(TC1_Amazon_StepDefinitions.java:24)
+	at ✽.Given user open browser and goes to webpage(D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
