@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\Study_Java\\FrameWork_WorkSpace\\Cucumber_POMDesign\\src\\main\\java\\com\\qa\\features\\TC1_Amazon_Home.feature",
+		features = "D:\\Study_Java\\FrameWork_WorkSpace\\Cucumber_POMDesign\\src\\main\\java\\com\\qa\\features",
 		glue = {"com\\qa\\stepDefinitions"},
 		format = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit: junit_xml/cucumber.xml"},  //to generate output in some report format
 		dryRun = false,//"true" = to check each annotation in feature file has method in stepDefination file, once everything checks out make it "false"

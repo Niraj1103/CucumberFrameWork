@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,21 +17,23 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	public static Logger log;
 	
 
 	public static void openBrowser() throws IOException {
-
 		
+		log = Logger.getLogger("CucumberAmazonFrameWork");
+		PropertyConfigurator.configure("log4j.properties");
+		log.setLevel(Level.DEBUG);
 		
 		FileInputStream f = new FileInputStream(
-				"D:\\Study_Java\\FrameWork_WorkSpace\\Cucumber_POMDesign\\src\\main\\java\\com\\qa\\config\\config.properties");
+				"D:\\Study_Java\\FrameWork_WorkSpace\\Cucumber_POMDesign_Amazon\\src\\main\\java\\com\\qa\\config\\config.properties");
 		Properties prop = new Properties();
 		prop.load(f);
 
 		String browserName = prop.getProperty("browser");
-		System.out.println(browserName);
-
 		
+		log.info("opening a "+browserName);
 		if (browserName.equals("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", "D:\\Study_Java\\SeleniumJars\\geckodriver.exe");
 			driver = new FirefoxDriver();
@@ -47,7 +51,13 @@ public class TestBase {
 	}
 
 	public void closeBrowser() {
+		log.info("End of Test, Closing Browser");
 		driver.quit();
 	}
 	
+//	public void TestLog() {
+//		log = Logger.getLogger("CucumberAmazonFrameWork");
+//		PropertyConfigurator.configure("log4j.properties");
+//		log.setLevel(Level.DEBUG);
+//	}
 }

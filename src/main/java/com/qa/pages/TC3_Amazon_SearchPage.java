@@ -11,6 +11,7 @@ public class TC3_Amazon_SearchPage extends TestBase {
 	
 	public TC3_Amazon_SearchPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		log.info("---------- Starting a TC3_Amazon_SearchPage Test ----------");
 	}
 
 	@FindBy(id = "twotabsearchtextbox")

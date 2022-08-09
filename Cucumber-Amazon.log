@@ -1,0 +1,38 @@
+09/08/2022 09:38:45 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:38:54 CucumberAmazonFrameWork End of Test, Closing Browser
+09/08/2022 09:44:41 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:44:47 CucumberAmazonFrameWork Opening a WebPage
+09/08/2022 09:44:51 CucumberAmazonFrameWork Verifing Homepage title
+09/08/2022 09:44:51 CucumberAmazonFrameWork Stating TC1_Amazon_HomePage Test
+09/08/2022 09:44:51 CucumberAmazonFrameWork End of Test, Closing Browser
+09/08/2022 09:44:54 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:44:59 CucumberAmazonFrameWork Opening a WebPage
+09/08/2022 09:45:03 CucumberAmazonFrameWork Verifing Homepage title
+09/08/2022 09:45:03 CucumberAmazonFrameWork Stating TC1_Amazon_HomePage Test
+09/08/2022 09:45:03 CucumberAmazonFrameWork Getting header list
+09/08/2022 09:45:03 CucumberAmazonFrameWork Stating a TC2_Amazon_HeaderPage Test
+09/08/2022 09:45:10 CucumberAmazonFrameWork End of Test, Closing Browser
+09/08/2022 09:45:12 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:45:17 CucumberAmazonFrameWork Opening a WebPage
+09/08/2022 09:45:22 CucumberAmazonFrameWork Verifing Homepage title
+09/08/2022 09:45:22 CucumberAmazonFrameWork Stating TC1_Amazon_HomePage Test
+09/08/2022 09:45:22 CucumberAmazonFrameWork Searching for Phone
+09/08/2022 09:45:22 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:24 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:24 CucumberAmazonFrameWork End of Test, Closing Browser
+09/08/2022 09:45:29 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:45:35 CucumberAmazonFrameWork Opening a WebPage
+09/08/2022 09:45:39 CucumberAmazonFrameWork Verifing Homepage title
+09/08/2022 09:45:39 CucumberAmazonFrameWork Stating TC1_Amazon_HomePage Test
+09/08/2022 09:45:39 CucumberAmazonFrameWork Searching for Earbuds
+09/08/2022 09:45:39 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:41 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:41 CucumberAmazonFrameWork End of Test, Closing Browser
+09/08/2022 09:45:45 CucumberAmazonFrameWork opening a Firefox
+09/08/2022 09:45:50 CucumberAmazonFrameWork Opening a WebPage
+09/08/2022 09:45:54 CucumberAmazonFrameWork Verifing Homepage title
+09/08/2022 09:45:54 CucumberAmazonFrameWork Stating TC1_Amazon_HomePage Test
+09/08/2022 09:45:54 CucumberAmazonFrameWork Searching for Watches
+09/08/2022 09:45:54 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:56 CucumberAmazonFrameWork Starting a TC3_Amazon_SearchPage Test
+09/08/2022 09:45:56 CucumberAmazonFrameWork End of Test, Closing Browser

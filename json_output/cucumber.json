@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1175754300,
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.apache.log4j.Logger.info(Object)\" because \"com.qa.util.TestBase.print\" is null\r\n\tat com.qa.util.TestBase.openBrowser(TestBase.java:32)\r\n\tat com.qa.stepDefinitions.TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage(TC1_Amazon_StepDefinitions.java:24)\r\n\tat ✽.Given user open browser and goes to webpage(D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature:4)\r\n",
-              "status": "failed"
+              "duration": 9805814000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user open browser and goes to webpage",
@@ -25,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35588500,
+              "status": "passed"
             },
             "line": 5,
             "name": "user verify the home page title and page URL",
@@ -36,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2991122300,
+              "status": "passed"
             },
             "line": 6,
             "name": "user quit",
@@ -52,6 +53,321 @@
     "description": "",
     "id": "amazon-home-page-test",
     "keyword": "Feature",
-    "uri": "D:/Study_Java/FrameWork_WorkSpace/Cucumber_POMDesign/src/main/java/com/qa/features/TC1_Amazon_Home.feature"
+    "uri": "TC1_Amazon_Home.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open Amazon Website and get Header List",
+        "description": "",
+        "id": "amazon-home-page-header-test;open-amazon-website-and-get-header-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9024813100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open browser and goes to webpage",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59265800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify the home page title and page URL",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_verify_the_page_title_and_page_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7183493300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user get the header list",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_get_the_header_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2115663000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user quit",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Home Page Header Test",
+    "description": "",
+    "id": "amazon-home-page-header-test",
+    "keyword": "Feature",
+    "uri": "TC2_Amazon_Header.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Open Amazon Website and search for product",
+        "description": "",
+        "id": "amazon-home-page-header-test;open-amazon-website-and-search-for-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9081869500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open browser and goes to webpage",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29329300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify the home page title and page URL",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_verify_the_page_title_and_page_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2659500700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for \"Phone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Phone",
+                  "offset": 17
+                }
+              ],
+              "location": "TC1_Amazon_StepDefinitions.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207499000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user get search results",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_get_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5052576100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quit",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Open Amazon Website and search for product",
+        "description": "",
+        "id": "amazon-home-page-header-test;open-amazon-website-and-search-for-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9250640600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open browser and goes to webpage",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40543900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify the home page title and page URL",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_verify_the_page_title_and_page_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2229776800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for \"Earbuds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Earbuds",
+                  "offset": 17
+                }
+              ],
+              "location": "TC1_Amazon_StepDefinitions.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176373400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user get search results",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_get_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3898250100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quit",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Open Amazon Website and search for product",
+        "description": "",
+        "id": "amazon-home-page-header-test;open-amazon-website-and-search-for-product;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8691215300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open browser and goes to webpage",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_open_browser_and_goes_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31852200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify the home page title and page URL",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_verify_the_page_title_and_page_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1839962700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for \"Watches\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Watches",
+                  "offset": 17
+                }
+              ],
+              "location": "TC1_Amazon_StepDefinitions.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126371400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user get search results",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_get_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2731270600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quit",
+            "match": {
+              "location": "TC1_Amazon_StepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Home Page Header Test",
+    "description": "",
+    "id": "amazon-home-page-header-test",
+    "keyword": "Feature",
+    "uri": "TC3_Amazon_Search.feature"
   }
 ]
